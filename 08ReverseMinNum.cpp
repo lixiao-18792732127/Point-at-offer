@@ -54,6 +54,12 @@ int main()
 {
 	int arr1[5] = { 3, 4, 5, 1, 2 };
 	cout << BinarySearchMinNum(arr1, 5) << endl;
+	int arr2[5] = { 2, 4, 2, 2, 2 };
+	cout << BinarySearchMinNum(arr2, 5) << endl;
+	int arr3[5] = { 0 };
+	cout << BinarySearchMinNum(arr3, 5) << endl;
+	int arr4[5] = { 4, 4, 1, 1, 2 };
+	cout << BinarySearchMinNum(arr4, 5) << endl;
 	system("pause");
 	return 0;
 }
