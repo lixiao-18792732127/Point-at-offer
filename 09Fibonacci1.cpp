@@ -2,7 +2,7 @@
 
 #include<iostream>
 using namespace std;
-long long Finonacci(int n)
+long long Finonacci(int n)//非递归方法
 {
 	int arr[2] = { 0, 1 };
 	if (n < 2)
@@ -20,6 +20,7 @@ long long Finonacci(int n)
 	}
 	return Fib;
 }
+//递归方法
 //long long Finonacci(int n)
 //{
 //	if (n <= 0)
