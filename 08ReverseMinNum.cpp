@@ -50,13 +50,6 @@ int BinarySearchMinNum(int* arr, int length)
 	}
 }
 
-//int _tmain(int argc,_TCHAR argv[])
-//{
-//	int arr1[5] = { 3, 4, 5, 1, 2 };
-//	cout << BinarySearchMinNum(arr1, 5) << endl;
-//	system("pause");
-//	return 0;
-//}
 int main()
 {
 	int arr1[5] = { 3, 4, 5, 1, 2 };
