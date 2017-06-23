@@ -84,6 +84,7 @@ int main()
 			cin >> arr[i*Row+j];
 		}
 	}
+	cout << "顺时针打印前的矩阵为：" << endl;
 	PrintArr(arr, Row, Col);
 	cout << "顺时针打印出来的矩阵为：" << endl;
 	PrintMatrix(arr, Row, Col);
